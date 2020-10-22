@@ -1,0 +1,261 @@
+body {
+    width: 100%;
+    font-size: 150%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 50px;
+    background-color: #ffffff;
+    border-style: hidden;
+    width: inherit;
+    position: fixed;
+    margin-top: -50px;
+}
+
+.header-div1 i,
+.header-div1 a,
+.header-div3 a {
+    padding: 10px;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subscribe,
+.login {
+    background-color: rgb(99, 97, 212);
+    border-style: none;
+    color: #ffffff;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.article {
+    width: 80%;
+    text-align: center;
+}
+
+article {
+    width: 60%;
+}
+
+.article header h1 {
+    color: #121212;
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.5em;
+    text-align: left;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.article figure {
+    margin: 50px auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+section {
+    width: 900px;
+    text-align: left;
+    margin: 50px auto;
+    font-size: 90%;
+    color: #222222;
+}
+
+.article figure figcaption {
+    width: inherit;
+    font-size: 65%;
+    text-align: left;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+p,
+header,
+article {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-div2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.author div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.author h4 {
+    text-align: left;
+    font-size: 80%;
+}
+
+.author {
+    font-size: 75%;
+}
+
+i {
+    margin-left: 10px;
+}
+
+article p {
+    text-align: start;
+    margin-top: 5px;
+}
+
+.article-title {
+    text-align: start;
+    text-transform: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer-heading a {
+    margin-left: 400px;
+    font-size: 12px;
+}
+
+.footer-1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 70%;
+}
+
+.footer-div {
+    text-align: left;
+}
+
+li {
+    list-style: none;
+    text-align: start;
+}
+
+ul li a:link {
+    color: #121212;
+}
+
+.footer-2 {
+    font-size: 40%;
+    border-top: 1px #999999 solid;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-2 a:link {
+    color: #121212;
+}
+
+div a {
+    margin: 5px;
+}
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-top: solid 1px #999999;
+    padding-top: 5px;
+}
+
+.comment {
+    display: flex;
+    justify-content: space-between;
+}
+
+#the-universe {
+    position: absolute;
+    top: 150px;
+    margin-left: 0px;
+}
+
+#not-enough-time {
+    position: absolute;
+    top: 150px;
+    margin-left: 210px;
+}
+
+#distant-coffee {
+    position: absolute;
+    top: 150px;
+    margin-left: 450px;
+}
+
+.inflation-theory {
+    width: 200px;
+    font-size: 50%;
+    margin-left: 0px;
+}
+
+.row {
+    width: 900px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row img {
+    height: auto;
+    width: 900px;
+    margin: 0px;
+}
+
+#coffee-everywhere {
+    position: absolute;
+    top: 150px;
+    margin-left: 690px;
+}
+
+#still-not-enough-time {
+    position: absolute;
+    top: 400px;
+    margin-left: 0px;
+}
+
+#inflation {
+    position: absolute;
+    top: 400px;
+    margin-left: 220px;
+}
+
+#fluctuation {
+    position: absolute;
+    top: 400px;
+    margin-left: 450px;
+}
+
+#expansion {
+    position: absolute;
+    top: 400px;
+    margin-left: 690px;
+}
+
+.footer-1 div h5 {
+    left-margin: 20px;
+}
