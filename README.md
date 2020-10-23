@@ -1,7 +1,33 @@
 # positioning-and-floating-elements-project1
 
-This is project  Sneak Peek 1: Positioning and Floating Elements
-built collaboratively. We built this project with several commits but had one mistake at the which forced us to commit all the files in one commit.
-The project is a clone of the New York times page as provided in the instructions.
+> Clone of the New York Times using float positioning technique
+> This is a project that clones the New York Time Website. The purpose of this project is to practice with positioning and floating.
 
-We welcome and appreciate code reviews and ready to implement whatever advice plus additions.
+
+@@ -8,12 +8,18 @@ Clone of an article page from [The New York Times](https://www.nytimes.com/2014
+## Built With
+
+- Html,
+- CSS
+- CSS,
+- Linter,
+- Vs code
+
+## Live Demo
+
+[Live Demo Link](https://rawcdn.githack.com/rammazzoti2000/Positioning-and-Floating-Elements/b8772412434095cd01dd4ff6fe1db2f3d5e8602f/index.html)
+
+## Automated Test
+> There are no automated tests for this project yet.
+
+## Authors
+Github: wandji20
+Github:Byabasaija
+
+@@ -38,6 +44,9 @@ Contributions, issues and feature requests are welcome! Start by:
+* Push your branch up to your forked repository
+* Open a Pull Request with a detailed description to the development branch of the original project for a review
+
+## Show your support
+Give a :star: if you like this project!
+
