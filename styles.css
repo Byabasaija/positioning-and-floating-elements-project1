@@ -17,8 +17,14 @@ body {
   width: 98%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-right: 10px;
+  margin-bottom: 10px;
+}
+
+#nav-bar a {
+  color: #222;
+  font-size: 75%;
 }
 
 h4 {
@@ -41,12 +47,13 @@ h4 {
 }
 
 .article {
-  width: 80%;
+  margin-top: 10px;
+  width: 85%;
   text-align: center;
 }
 
 article {
-  width: 60%;
+  width: 70%;
 }
 
 .article header h1 {
@@ -61,6 +68,7 @@ article {
   margin-right: auto;
   margin-top: 50px;
   margin-bottom: 10px;
+  padding-top: 10px;
 }
 
 .article figure {
@@ -127,14 +135,15 @@ article p {
 
 .article-title {
   text-align: start;
+  padding-left: 35px;
   text-transform: none;
-  margin-left: 0px;
+  margin-left: 30px;
 }
 
 #the-universe {
   position: absolute;
   top: 150px;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 #not-enough-time {
@@ -152,7 +161,7 @@ article p {
 .inflation-theory {
   width: 200px;
   font-size: 50%;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .row {
@@ -166,7 +175,7 @@ article p {
 .row img {
   height: auto;
   width: 900px;
-  margin: 0px;
+  margin: 0;
 }
 
 #coffee-everywhere {
@@ -178,7 +187,7 @@ article p {
 #still-not-enough-time {
   position: absolute;
   top: 400px;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 #inflation {
@@ -206,6 +215,11 @@ a {
 .comment {
   display: flex;
   justify-content: space-between;
+}
+
+footer {
+  border-top: 1px double #ccc;
+  padding-top: 30px;
 }
 
 .footer-heading {
@@ -260,6 +274,56 @@ a {
   padding-bottom: 10px;
 }
 
-.item p a:unvisited {
+footer div a {
   color: #000;
+}
+
+.grid-section {
+  width: 90%;
+  display: grid;
+  font-size: 70%;
+  text-align: start;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: 70% 30%;
+}
+
+.grid-section-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-top: 1px solid #000;
+  padding-top: 20px;
+}
+
+.grid-section-2 {
+  border-top: 1px solid #000;
+  padding-top: 20px;
+}
+
+.grid-section-2 p {
+  text-align: start;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-top: #999 solid 1.5px;
+  font-weight: 400px;
+}
+.grid-item-1 figcaption {
+  font-size: 70%;
+  text-align: end;
+  margin-right: 20px;
+  margin-top: 0;
+  margin-left: -10px;
+}
+
+.grid-item-1 figure {
+  margin-bottom: 0;
+}
+.grid-item-1 time {
+  text-align: start;
+  font-size: 80%;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+.grid-item-1 p {
+  margin-top: 3px;
 }
