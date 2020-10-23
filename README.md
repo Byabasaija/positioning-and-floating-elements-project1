@@ -2,7 +2,7 @@
 
 > Clone of the New York Times using float positioning technique
 > This is a project that clones the New York Time Website. The purpose of this project is to practice with positioning and floating.
-
+![screenshot](/images/Screenshot (31).jpg)
 
 @@ -8,12 +8,18 @@ Clone of an article page from [The New York Times](https://www.nytimes.com/2014
 ## Built With
@@ -15,14 +15,15 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/rammazzoti2000/Positioning-and-Floating-Elements/b8772412434095cd01dd4ff6fe1db2f3d5e8602f/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Byabasaija/positioning-and-floating-elements-project1/4888064e413ffd75496e4165da0b36718e77ed60/index.html)
 
 ## Automated Test
 > There are no automated tests for this project yet.
 
 ## Authors
-Github: wandji20
-Github:Byabasaija
+wandji20
+Byabashaija
+
 
 @@ -38,6 +44,9 @@ Contributions, issues and feature requests are welcome! Start by:
 * Push your branch up to your forked repository
