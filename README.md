@@ -3,7 +3,7 @@
 > Clone of the New York Times using float positioning technique
 > This is a project that clones the New York Time Website. The purpose of this project is to practice with positioning and floating.
 
-[screenshot](images/Screenshot31.jpg)
+![screenshot](images/screenshot.png)
 
  Clone of an article page from [The New York Times](https://www.nytimes.com/2014)
 ## Built With
