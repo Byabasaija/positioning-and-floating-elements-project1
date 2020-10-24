@@ -273,6 +273,7 @@ footer div a {
   border-top: 1px solid #ccc;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 #nav-bar a {
@@ -335,4 +336,25 @@ footer div a {
 
 .figure {
   width: 800px !important;
+}
+
+#empty {
+  width: inherit;
+  height: 45px;
+}
+
+#fixed-bottom {
+  text-align: center;
+  font-size: 90%;
+  width: inherit;
+  margin: auto;
+  margin-top: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-top: solid 1.5px #222;
+  background-color: #fff;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0px;
 }
