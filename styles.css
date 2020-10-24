@@ -9,22 +9,16 @@ body {
   justify-content: space-between;
   align-items: baseline;
   height: 50px;
-  background-color: #ffffff;
+  background-color: #fff;
   border-style: hidden;
-  width: inherit;
   position: fixed;
   margin-top: -50px;
   width: 98%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
   padding-top: 5px;
   padding-right: 10px;
-  margin-bottom: 10px;
-}
-
-#nav-bar a {
-  color: #222;
-  font-size: 75%;
 }
 
 h4 {
@@ -40,7 +34,6 @@ h4 {
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
-  border-radius: 3px;
   height: 40px;
   margin-left: 5px;
   margin-right: 5px;
@@ -82,7 +75,7 @@ section {
   text-align: left;
   margin: 50px auto;
   font-size: 90%;
-  color: #222222;
+  color: #222;
 }
 
 .article figure figcaption {
@@ -167,8 +160,6 @@ i {
 .row {
   width: 900px;
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
   margin: 80px auto;
 }
 
@@ -230,6 +221,10 @@ footer {
   margin-right: auto;
 }
 
+footer div a {
+  color: #000;
+}
+
 .footer-heading a {
   font-size: 50%;
   margin-right: 40px;
@@ -274,8 +269,9 @@ footer {
   padding-bottom: 10px;
 }
 
-footer div a {
-  color: #000;
+#nav-bar a {
+  color: #222;
+  font-size: 75%;
 }
 
 .grid-section {
@@ -306,15 +302,13 @@ footer div a {
   padding-top: 8px;
   padding-bottom: 8px;
   border-top: #999 solid 1.5px;
-  font-weight: 400px;
+  font-weight: 400;
 }
 
-.grid-item-1 figcaption {
+.grid-item-1 figure figcaption {
   font-size: 70%;
   text-align: end;
-  margin-right: 20px;
   margin-top: 0;
-  margin-left: -10px;
 }
 
 .grid-item-1 figure {
