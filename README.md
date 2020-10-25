@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Byabasaija/positioning-and-floating-elements-project1/4888064e413ffd75496e4165da0b36718e77ed60/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Byabasaija/positioning-and-floating-elements-project1/1109864879ad586ef56a9cc8aea53e6f4aab43b2/index.html)
 
 ## Automated Test
 > There are no automated tests for this project yet.
