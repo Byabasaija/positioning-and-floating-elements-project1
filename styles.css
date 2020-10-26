@@ -382,6 +382,7 @@ fieldset {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .personal-info {
   display: flex;
   flex-direction: column;
@@ -391,6 +392,7 @@ fieldset {
 .personal-info label {
   margin-top: 10px;
 }
+
 .personal-info label span {
   text-align: start;
   margin: auto;
