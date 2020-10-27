@@ -273,10 +273,6 @@ footer div a {
   border-top: 1px solid #ccc;
   padding-top: 20px;
   padding-bottom: 20px;
-<<<<<<< HEAD
-=======
-  margin-bottom: 10px;HEADmargin-bottomHEADmargin-bottomHEADmargin-bottomHEADmargin-bottomHEADmargin-bottom
->>>>>>> a59f0d6d61a41429c97fe463bc3040a7bd1fa7f0
 }
 
 #nav-bar a {
@@ -295,8 +291,9 @@ footer div a {
 }
 
 .grid-section-1 {
-  display: grid;
   display: -ms-grid;
+  display: grid;
+
   grid-template-columns: 1fr 1fr 1fr;
   border-top: 1px solid #000;
   padding-top: 20px;

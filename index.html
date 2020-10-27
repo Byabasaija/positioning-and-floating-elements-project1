@@ -522,7 +522,7 @@
       </section>
     </main>
 
-    <legend class="comments-heading">Have a Coment?</legend>
+    <h4 class="comments-heading">Have a Coment?</h4>
     <form action="form" class="comments-form">
       <label for="username"
         >Username <br />
@@ -530,9 +530,9 @@
           type="text"
           name="username"
           placeholder="Enter your username"
-          max="20"
-          required
+          maxlength="20"
           id="username"
+          required
         /> </label
       ><br />
 
@@ -542,7 +542,7 @@
           type="email"
           name="email"
           placeholder="you@example.com"
-          max="20"
+          maxlength="20"
           required
           id="email"
         /> </label
@@ -558,7 +558,7 @@
           class="comment-box"
           id="comment" /></label
       ><br />
-      <label for="opinion"
+      <label for="opinion" id="opinion"
         >Qn. What is your overall opinion about this article </label
       ><br />
       <input type="radio" id="positive" name="radio" value="Positive" />
