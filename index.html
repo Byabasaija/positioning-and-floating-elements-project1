@@ -521,9 +521,10 @@
         </div>
       </section>
     </main>
-    <form action="comments-form" class="comments-form">
-      <legend class="comments-heading">Have a Coment?</legend>
-      <label for="username" id="username"
+
+    <legend class="comments-heading">Have a Coment?</legend>
+    <form action="form" class="comments-form">
+      <label for="username"
         >Username <br />
         <input
           type="text"
@@ -531,10 +532,11 @@
           placeholder="Enter your username"
           max="20"
           required
+          id="username"
         /> </label
       ><br />
 
-      <label for="email" id="email"
+      <label for="email"
         >Email <br />
         <input
           type="email"
@@ -542,27 +544,33 @@
           placeholder="you@example.com"
           max="20"
           required
+          id="email"
         /> </label
       ><br />
 
-      <label for="comment" id="comment"
+      <label for="comment"
         >Comment <br />
         <input
           type="text"
           name="comment"
           placeholder="Type your comment here..."
           maxlength="120"
-          class="comment-box" /></label
+          class="comment-box"
+          id="comment" /></label
       ><br />
-      <label for="opinion" id="opinion"
-        >Qn. What is your overall opinion about this article <br />
-        <input type="radio" />Positive <br />
-        <input type="radio" />Negative <br />
-        <input type="radio" />Neutral <br />
-      </label>
+      <label for="opinion"
+        >Qn. What is your overall opinion about this article </label
+      ><br />
+      <input type="radio" id="positive" name="radio" value="Positive" />
+      <label for="positive">Positive</label><br />
+      <input type="radio" id="negative" name="radio" value="Negative" />
+      <label for="negative">Negative</label><br />
+      <input type="radio" id="neutral" name="radio" value="Neutral" />
+      <label for="neutral">Neutral</label><br />
 
       <input type="button" value="Send" class="button" />
     </form>
+
     <section class="grid-section">
       <div class="grid-section-1">
         <div class="grid-item-1">
