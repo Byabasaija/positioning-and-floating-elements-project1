@@ -273,7 +273,6 @@ footer div a {
   border-top: 1px solid #ccc;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-bottom: 10px;
 }
 
 #nav-bar a {
@@ -292,8 +291,8 @@ footer div a {
 }
 
 .grid-section-1 {
-  display: grid;
   display: -ms-grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   border-top: 1px solid #000;
   padding-top: 20px;
@@ -357,4 +356,42 @@ footer div a {
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.comments-form {
+  width: inherit;
+  height: inherit;
+  margin: 10px 0 10px 20px;
+  padding: 10px 0 10px 20px;
+  border: #999 solid 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.comments-heading {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.5em;
+  margin: 10px 0 10px 20px;
+}
+
+.button {
+  background-color: rgb(91, 91, 228);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  width: 100px;
+  height: 50px;
+}
+
+.comment-box {
+  width: 200px;
+  height: 50px;
+  font-weight: 100;
 }
