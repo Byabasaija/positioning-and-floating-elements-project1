@@ -358,3 +358,62 @@ footer div a {
   right: 0;
   bottom: 0;
 }
+
+#comment-form {
+  width: 400px;
+  box-sizing: border-box;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background-color: #ddd;
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+legend {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+fieldset {
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.personal-info label {
+  margin-top: 10px;
+}
+
+.personal-info label span {
+  text-align: start;
+  margin: auto;
+}
+
+.opinion {
+  width: inherit;
+  box-sizing: border-box;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.opinion label {
+  margin: 7px auto;
+}
+
+.opinion button {
+  width: max-content;
+  color: #121288;
+  margin: 7px;
+  align-self: flex-end;
+}
